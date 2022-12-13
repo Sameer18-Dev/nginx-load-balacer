@@ -1,9 +1,7 @@
-## dockerizing node proxy app
+## Build Process
 
-after running `docker build -t node-proxy:v1 .` in the `./app` directory
+Run `docker build -t node-proxy:v1 .` in the `./app` DIR
 <br/>
-in the `node-proxy-docker` root directory hit `docker-compose up` command
+Second step is to execute docker-compose up in root DIR
 <br/>
-or other way just hit the `docker run --name node-proxy-app -p 3000:3000 node-proxy:v1` command
-<br/>
-now you have your node app running in a docker container and you can access it by going to `http://localhost:3000`
+To view the project visit: `http://localhost:3000`
